@@ -45,6 +45,7 @@ syn match hclFunction "[a-z0-9]\+(\@="
 
 """ HCL2
 syn keyword hclRepeat         for in
+syn keyword hclKeyword        data local module output resource var variable
 syn keyword hclConditional    if
 syn keyword hclValueNull      null
 
@@ -63,6 +64,7 @@ hi def link hclValueString       String
 hi def link hclHereDocText       String
 hi def link hclFunction          Function
 hi def link hclRepeat            Repeat
+hi def link hclKeyword           Keyword
 hi def link hclConditional       Conditional
 hi def link hclValueNull         Constant
 
